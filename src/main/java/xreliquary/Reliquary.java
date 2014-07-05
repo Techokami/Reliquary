@@ -11,8 +11,8 @@ import net.minecraft.item.Item;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.modstats.ModstatInfo;
-import org.modstats.Modstats;
+//import org.modstats.ModstatInfo;
+//import org.modstats.Modstats;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
@@ -35,7 +35,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.relauncher.Side;
 
-@ModstatInfo(prefix = "reliquary")
+//@ModstatInfo(prefix = "reliquary")
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, dependencies = "required-after:libsandstone")
 @SandstoneMod(basePackage = "xreliquary")
 public class Reliquary {
